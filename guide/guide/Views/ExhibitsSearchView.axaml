@@ -1,0 +1,30 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="guide.Views.ExhibitsSearchView">
+    <Grid Name="ExhibitSearchGrid" Background="#ddd4bc">
+        <!--<Image Source="avares://guide/Resources/back.jpg" Stretch="UniformToFill" Opacity="0.6"/>-->
+            <Border Name="_border" Classes="all"/>
+            <!--<TextBox  FontSize="30" Width="1000" TextChanged="OnSearchTextChanged" Margin="10"/>-->
+        <StackPanel Name="LoadProgress" VerticalAlignment="Center" HorizontalAlignment="Center" IsVisible="True">
+                        <TextBlock Text="Загрузка..."/>
+                    </StackPanel>
+        <ScrollViewer Name="ScrollViewer" Margin="0,70,0,70" Focusable="True">
+            <StackPanel Name="PanelExhibits"/>
+        </ScrollViewer>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                <Button Classes="all" Content="В меню" CornerRadius="10" Click="Button_OnClick" FontSize="20"/>
+            <Border Name="prevnextBorder" Classes="all" Height="50" Padding="2">
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="previous" Content="Previous" CornerRadius="10" Click="PreviousPage_Click" FontSize="20"/>
+                    <Button Name="next" Content="Next" CornerRadius="10" Click="NextPage_Click" FontSize="20"/>
+                </StackPanel>
+            </Border>
+            <Border Classes="all" Height="50" Padding="2">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Name="PageNumber" FontSize="25" Margin="10"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>

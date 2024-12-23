@@ -1,0 +1,52 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="guide.App"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+    <Application.Styles>
+        <FluentTheme />
+		<Style Selector="TextBlock">
+			<Setter Property="Foreground" Value="Black"/>
+		</Style>
+		<Style Selector="Button">
+			<Setter Property="Foreground" Value="Black"/>
+		</Style>
+        <Style Selector="TextBlock.room">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" BlurRadius="5"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style Selector="Button.room">
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+           <Setter Property="FocusAdorner" Value="{x:Null}"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <!--<Setter Property='Foreground' Value="Transparent"/>-->
+        </Style>
+        <Style Selector="Border.all">
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Background" Value="#eeba63"/>
+        </Style>
+		
+        <Style Selector="Button.all">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Background" Value="#eeba63"/>
+			<Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Application.Styles>
+</Application>

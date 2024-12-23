@@ -1,0 +1,46 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="guide.Views.ExhibitDescriptionView">
+    <Grid Background="#ddd4bc">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.15*"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1" Classes="all" >
+            <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock x:Name="Name" FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap"/>
+                            <Button 
+                                    Click="Location_in_map_OnClick"
+                                    CornerRadius="10"
+                                    FontSize="20">
+                                <TextBlock x:Name="Location_in_map" TextWrapping="Wrap"/>
+                            </Button>
+                            <TextBlock x:Name="Description" FontSize="20" TextWrapping="Wrap"/>
+                        </StackPanel>
+            </ScrollViewer>
+        </Border>
+        
+        <Image Grid.Row="0" x:Name="MyImage"/>
+        <TextBlock Grid.Row="0" 
+                   x:Name="Loading"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   TextWrapping="Wrap"
+                   Text="Загрузка... Проверьте соединение с интернетом и отсутсвие VPN" IsVisible="False"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Button Classes="all" Click="CloseView_Click" Content="Назад" HorizontalAlignment="Left" Margin="10" FontSize="20"/>
+            <Border Name="prevnextBorder" Classes="all" Height="50" Padding="2" HorizontalAlignment="Right" >
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="previous" Content="Previous" CornerRadius="10" Click="PreviousPage_Click" FontSize="20"/>
+                    <Button Name="next" Content="Next" CornerRadius="10" Click="NextPage_Click" FontSize="20"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>
