@@ -20,6 +20,13 @@
 - Простота и удобство интерфейса.
 - Единый пользовательский опыт на разных платформах.
 
+
+## Технологии
+- **Язык программирования**: C# с использованием [Avalonia](https://avaloniaui.net/)
+- **Платформы**: Android, Windows, Linux, macOS
+- **Среда разработки**: Rider на Arch Linux
+- **Кроссплатформенная поддержка**: .NET 8
+
 ## Установка
 ### Для Android
 1. Скачайте APK-файл из [релизов](https://github.com/X-Jedi-Knight-X/Guide-for-museum/releases/tag/1.0).
@@ -41,8 +48,4 @@
 ### Список экспонатов
 ![Список экспонатов](screenshots/exhibits.png)
 
-## Технологии
-- **Язык программирования**: C# с использованием [Avalonia](https://avaloniaui.net/)
-- **Платформы**: Android, Windows, Linux, macOS
-- **Среда разработки**: Rider на Arch Linux
-- **Кроссплатформенная поддержка**: .NET 8
+
