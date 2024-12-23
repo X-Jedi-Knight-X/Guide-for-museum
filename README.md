@@ -22,12 +22,12 @@
 
 ## Установка
 ### Для Android
-1. Скачайте APK-файл из [релизов](https://github.com/ваш_профиль/название_репозитория/releases).
+1. Скачайте APK-файл из [релизов](https://github.com/X-Jedi-Knight-X/Guide-for-museum/releases/tag/1.0).
 2. Установите APK на ваше Android-устройство.
 3. Откройте приложение и начните изучать музей.
 
 ### Для ПК
-1. Скачайте приложение для вашей ОС (Windows, Linux, macOS) из [релизов](https://github.com/ваш_профиль/название_репозитория/releases).
+1. Скачайте приложение для вашей ОС (Windows, Linux) из [релизов](https://github.com/X-Jedi-Knight-X/Guide-for-museum/releases/tag/1.0).
 2. Установите приложение.
 3. Запустите программу и начните исследовать экспонаты музея.
 
@@ -46,11 +46,3 @@
 - **Платформы**: Android, Windows, Linux, macOS
 - **Среда разработки**: Rider на Arch Linux
 - **Кроссплатформенная поддержка**: .NET 8
-
-## Контакты
-Если у вас есть вопросы или предложения, свяжитесь со мной:
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- Telegram: [@ваш_ник](https://t.me/ваш_ник)
-
-## Лицензия
-[MIT](LICENSE)

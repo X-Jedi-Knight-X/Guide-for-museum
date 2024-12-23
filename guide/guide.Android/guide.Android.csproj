@@ -10,6 +10,9 @@
         <AndroidPackageFormat>apk</AndroidPackageFormat>
         <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
     </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <AndroidCreatePackagePerAbi>true</AndroidCreatePackagePerAbi>
+    </PropertyGroup>
 
     <ItemGroup>
         <AndroidResource Include="Icon.png">
