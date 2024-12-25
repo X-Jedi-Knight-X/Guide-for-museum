@@ -23,7 +23,7 @@
 
 ## Технологии
 - **Язык программирования**: C# с использованием [Avalonia](https://avaloniaui.net/)
-- **Платформы**: Android, Windows, Linux, macOS
+- **Платформы**: Android, Windows, Linux
 - **Среда разработки**: Rider на Arch Linux
 - **Кроссплатформенная поддержка**: .NET 8
 
