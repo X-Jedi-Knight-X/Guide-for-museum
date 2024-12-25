@@ -1,0 +1,6 @@
+int color splash_background 0x7f010000
+int drawable icon 0x7f020000
+int drawable icon_guide 0x7f020001
+int drawable splash_screen 0x7f020002
+int style MyTheme 0x7f030000
+int style MyTheme.NoActionBar 0x7f030001

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "dcks1c1y/jw=",
+  "success": true,
+  "projectFilePath": "/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/guide.csproj",
+  "expectedPackageFiles": [
+    "/home/genichi/.nuget/packages/avalonia/11.1.0/avalonia.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.controls.colorpicker/11.1.0/avalonia.controls.colorpicker.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.controls.datagrid/11.1.0/avalonia.controls.datagrid.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.diagnostics/11.1.0/avalonia.diagnostics.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.fonts.inter/11.1.0/avalonia.fonts.inter.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.labs.gif/11.2.0/avalonia.labs.gif.11.2.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.remote.protocol/11.1.0/avalonia.remote.protocol.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.themes.fluent/11.1.0/avalonia.themes.fluent.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/avalonia.themes.simple/11.1.0/avalonia.themes.simple.11.1.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "/home/genichi/.nuget/packages/dynamicdata/9.0.4/dynamicdata.9.0.4.nupkg.sha512",
+    "/home/genichi/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
+    "/home/genichi/.nuget/packages/system.reactive/6.0.1/system.reactive.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

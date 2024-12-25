@@ -1,0 +1,15 @@
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/bin/Debug/net8.0/guide.deps.json
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/bin/Debug/net8.0/guide.dll
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/bin/Debug/net8.0/guide.pdb
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/guide.csproj.AssemblyReference.cache
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/Avalonia/resources
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/guide.GeneratedMSBuildEditorConfig.editorconfig
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/guide.AssemblyInfoInputs.cache
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/guide.AssemblyInfo.cs
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/guide.csproj.CoreCompileInputs.cache
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/guide.sourcelink.json
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/Avalonia/guide.dll
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/Avalonia/guide.pdb
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/refint/Avalonia/guide.dll
+/home/genichi/Yandex.Disk/Guide-for-museum/guide/guide/obj/Debug/net8.0/ref/guide.dll

@@ -1,0 +1,5 @@
+drawable/icon;drawable/Icon
+drawable/icon_guide;drawable/icon_guide
+drawable/splash_screen;drawable/splash_screen
+values/colors;values/colors
+values/styles;values/styles

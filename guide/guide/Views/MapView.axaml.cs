@@ -182,158 +182,89 @@ public partial class MapView : UserControl
 
         nature_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush=new SolidColorBrush(Colors.White);
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(nature_hall); 
             SearchExhibitsAndView("природ");
             
 
         }, handledEventsToo: true);
         gallery.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush=new SolidColorBrush(Colors.White);
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(gallery);
             SearchExhibitsAndView("галерея");
             
         }, handledEventsToo: true);
         antique_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(antique_hall);
             SearchExhibitsAndView("старинной");
             
         }, handledEventsToo: true);
         city_history_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(city_history_hall); 
             SearchExhibitsAndView("истории города");
             
         }, handledEventsToo: true);
         lifi_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(lifi_hall); 
             SearchExhibitsAndView("быта");
             
         }, handledEventsToo: true);
         scales_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(scales_hall); 
             SearchExhibitsAndView("весов");
             
         }, handledEventsToo: true);
         war_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(war_hall); 
             SearchExhibitsAndView("войны");
             
         }, handledEventsToo: true);
         history_technology_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = null;
+            ChangeBorder(history_technology_hall); 
             SearchExhibitsAndView("техники");
             
         }, handledEventsToo: true);
         soviet_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = new SolidColorBrush(Colors.White);
-            modern_hall.BorderBrush = null;
+            ChangeBorder(soviet_hall); 
             SearchExhibitsAndView("периода");
             
         }, handledEventsToo: true);
         modern_hall.AddHandler(Button.PointerPressedEvent, (sender, e) =>
         {
-            nature_hall.BorderBrush = null;
-            gallery.BorderBrush = null;
-            antique_hall.BorderBrush = null;
-            city_history_hall.BorderBrush = null;
-            lifi_hall.BorderBrush = null;
-            scales_hall.BorderBrush = null;
-            war_hall.BorderBrush = null;
-            history_technology_hall.BorderBrush = null;
-            soviet_hall.BorderBrush = null;
-            modern_hall.BorderBrush = new SolidColorBrush(Colors.White);
+            ChangeBorder(modern_hall);
             SearchExhibitsAndView("совреме");
             
         }, handledEventsToo: true);
         
     }
 
+    private void ChangeBorder(Button hall)
+    {
+        Button[] halls =
+        {
+            nature_hall, gallery, antique_hall, city_history_hall, lifi_hall, scales_hall, war_hall,
+            history_technology_hall, soviet_hall, modern_hall
+        };
+
+        foreach (Button h in halls)
+        {
+            if (h == hall)
+            {
+                h.BorderBrush = new SolidColorBrush(Colors.White);
+            }
+            else
+            {
+                h.BorderBrush = null;
+            }
+        }
+    }
+    
     public async void SearchExhibitsAndView(String locationName)
     {
         back.IsVisible = false;

@@ -47,6 +47,7 @@ public partial class ExhibitDescriptionView : UserControl
             using (HttpClient client = new HttpClient())
             {
                 bool success = false;
+                //таймаут
                 while (!success)
                 {
                     HttpResponseMessage response = await client.GetAsync(imageUrl);
